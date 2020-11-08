@@ -198,7 +198,7 @@ PRODUCT_PACKAGES += \
     libOmxG711Enc \
     libplatformconfig \
     libstagefrighthw \
-    libavservices_minijail_32 \
+    libavservices_minijail \
     libavservices_minijail_vendor
 
 PRODUCT_COPY_FILES += \
@@ -422,7 +422,9 @@ PRODUCT_PACKAGES += \
     libqdMetaData.system \
     libqdMetaData.vendor \
     libwfdaac \
-    libwfdaac_vendor
+    libwfdaac_vendor \
+    vendor.display.config@2.0 \
+    vendor.display.config@2.0.vendor    
 
 PRODUCT_BOOT_JARS += \
     WfdCommon
