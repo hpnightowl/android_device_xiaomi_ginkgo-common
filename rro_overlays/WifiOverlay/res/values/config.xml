@@ -44,4 +44,7 @@
 
     <!-- True if the firmware supports Wi-Fi link probing -->
     <bool name="config_wifi_link_probing_supported">true</bool>
+
+    <!-- Do not translate. Default access point SSID used for tethering -->
+    <string translatable="false" name="wifi_tether_configure_ssid_default">Redmi Note 8/8T</string>
 </resources>
